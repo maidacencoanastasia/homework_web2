@@ -5,6 +5,8 @@ import com.example.demo.mathOperators.Concat;
 import com.example.demo.mathOperators.Op;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+
 @RestController
 @RequestMapping(value = "/ex3")
 public class Ex3 {
@@ -39,5 +41,9 @@ public class Ex3 {
                 break;
         }
         return result;
+    }
+    @GetMapping
+    public String[] concatGet(HttpServletRequest request) {
+        return request.getRequestURI().split("/");
     }
 }
