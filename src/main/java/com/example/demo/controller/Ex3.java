@@ -37,7 +37,7 @@ public class Ex3 {
                 result = (double)numbers.a / (double)numbers.b;
                 break;
             default:
-                System.out.println("unknown operator you can choose = - * /");
+                System.out.println("unknown operator, you can choose = - * /");
                 break;
         }
         return result;
