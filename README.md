@@ -8,6 +8,7 @@
 https://www.getpostman.com/collections/ec008e110ca4b1d501ef
 
 Exerciții:
+https://github.com/maidacencoanastasia/spring-petclinic-homework
 
 [HARD] Modifică comenzile SQL din fișierele dosarului db/h2/ astfel încât să nu pieredem nile înregistrări la fiecare pornire a aplicației (vezi CREATE TABLE IF NOT EXISTS).
 
@@ -17,16 +18,3 @@ Configurează pet-clinic astfel încât structura bazei de date să fie inițial
 
 [HARD] Adaugă configurare în pet-clinic pentru a putea stoca datele în SQLite.
 
-#Exerciții:
-
-Aceeași sarcină ca și la exemplul de exercițiu rezolvat cu excepția tabelului și interogările:
-
-tabelul Customers și interogările dinsecțiunile sufixate cu Example (https://www.w3schools.com/sql/sql_top.asp)
-
-tabelul Fruits și interogările (https://www.sqlshack.com/sql-examples-for-beginners-sql-select-statement-usage/)
-
-tabelul Person și interogările (https://www.mssqltips.com/sqlservertip/6818/sql-select-examples/)
-
-[HARD] tabelele STATION, STATS și interogările (https://www.itl.nist.gov/div897/ctg/dm/sql_examples.htm)
-
-# Pentru exercițiile de la cursul precedent scrieți o clasă cu teste.
