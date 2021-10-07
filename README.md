@@ -7,7 +7,7 @@
 #Postman
 https://www.getpostman.com/collections/ec008e110ca4b1d501ef
 
-Exerciții:
+#Exerciții:
 https://github.com/maidacencoanastasia/spring-petclinic-homework
 
 [HARD] Modifică comenzile SQL din fișierele dosarului db/h2/ astfel încât să nu pieredem nile înregistrări la fiecare pornire a aplicației (vezi CREATE TABLE IF NOT EXISTS).
