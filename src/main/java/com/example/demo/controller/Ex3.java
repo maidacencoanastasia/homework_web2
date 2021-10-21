@@ -10,17 +10,17 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 @RequestMapping(value = "/ex3")
 public class Ex3 {
-    @PostMapping("/add")
+    @GetMapping("/add")
     public Integer add(@RequestBody Add numbers) {
         return numbers.a + numbers.b;
     }
 
-    @PostMapping("/concat")
+    @GetMapping("/concat")
     public String concat(@RequestBody Concat concat) {
         return concat.a + concat.b;
     }
 
-    @PostMapping("/op")
+    @GetMapping("/op")
     public Double op(@RequestBody Op numbers) {
         double result = 0;
         switch (numbers.operation) {
